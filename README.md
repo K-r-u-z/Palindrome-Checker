@@ -1,0 +1,1 @@
+This project demonstrates my current abilities with HTML, CSS, and Javascript. It is apart of the freeCodeCamp certification projects.
