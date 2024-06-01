@@ -78,6 +78,23 @@ button:hover{
     transition: ease-in-out 0.5s
 }
 
+.result-div{
+    border-radius: 20px;
+    margin-top: 5rem;
+    padding: 2rem 10rem 2rem 10rem;
+    background-color: var(--shadow-color-accent);
+    color: var(--text-color);
+    font-size: 1.3rem;
+    box-shadow: -12px -12px 2px 1px var(--text-color2);
+    transition: ease-in-out 0.2s;
+
+}
+
+.result-div:hover{
+    box-shadow: 12px 12px 2px 1px var(--text-color2);
+    transition: ease-in-out 0.2s;
+}
+
 .hidden{
     display: none;
 }
