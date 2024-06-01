@@ -3,6 +3,7 @@
     --text-color: #EEEEEE;
     --text-color2: #31363F;
     --shadow-color: #76ABAE;
+    --shadow-color-accent: rgba(118, 171, 174, 0.3);
 }
 
 
@@ -35,6 +36,13 @@ body{
     padding-bottom: 3rem;
     border-radius: 20px;
     background-color: var(--text-color2);
+    transition: ease-in-out 0.5s;
+    box-shadow: -12px -12px 2px 1px var(--shadow-color-accent);
+}
+
+.input-box:hover{
+    box-shadow: 12px 12px 2px 1px var(--shadow-color-accent);
+    transition: ease-in-out 0.5s;
 }
 
 input{
