@@ -14,17 +14,13 @@
             </div>
 
             <div class="form">
-                <form class="input-box" id="input-box">
-                <div class="label">
-                <label class="boxText" for="palindromeText">Enter text to check for a palindrome:</label><br>
-                </div>
-                <input id="text-input" type="text" name="palindromeText" required></input>
-                <button id="check-btn" form="input-box">Check</button>
-                </form>
+                <label class="boxText" for="text-input">Enter text to check for a palindrome:</label>
+                <input id="text-input" value type="text"></input>
+                <button id="check-btn">Check</button>
             </div>
 
-            <div id="result"></div>
+            <div id="result" class="result-div hidden"></div>
         </div>
+        <script src="script.js"></script>
     </body>
-    <script src="script.js"></script>
 </html>

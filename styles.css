@@ -29,18 +29,19 @@ body{
     font-size: 1.5rem;
 }
 
-.input-box{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 5rem 3rem 5rem;
     border-radius: 20px;
     background-color: var(--text-color2);
     transition: ease-in-out 0.5s;
     box-shadow: -12px -12px 2px 1px var(--shadow-color-accent);
+    width: 20%;
 }
 
-.input-box:hover{
+.form:hover{
     box-shadow: 12px 12px 2px 1px var(--shadow-color-accent);
     transition: ease-in-out 0.5s;
 }
@@ -51,11 +52,11 @@ input{
     color: var(--text-color);
 }
 
-.label{
+.boxText{
     color: var(--text-color);
     font-size: 1.2rem;
-    margin-top: -1.5rem;
-    margin-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
     
 }
 
@@ -66,7 +67,7 @@ button{
     border: none;
     border-radius: 15px;
     padding: 10px;
-    margin-left: 1rem;
+    margin-top: 1rem;
     width: 5rem;
     transition: ease-in-out 0.5s
 }
@@ -75,4 +76,8 @@ button:hover{
     background-color: var(--text-color);
     color: var(--text-color2);
     transition: ease-in-out 0.5s
+}
+
+.hidden{
+    display: none;
 }
